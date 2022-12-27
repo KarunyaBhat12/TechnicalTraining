@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{
+  float principle, time, rate, Si;
+  printf("Enter principle, time, rate:");
+  scanf("%f%f%f",&principle,&time,&rate);
+  Si=(principle*time*rate)/100;
+  printf("simple interest = %f",Si);
+
+    return 0;
+}
+
+//output
+Enter principle, time, rate:1200 2 9
+simple interest = 216.000000
