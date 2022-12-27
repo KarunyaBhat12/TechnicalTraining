@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+  float principle, time, rate, Ci;
+  printf("Enter principle, time, rate:");
+  scanf("%f%f%f",&principle,&time,&rate);
+  Ci=principle*((pow((1+rate/100),time)));
+  printf("compound interest = %f",Ci);
+
+    return 0;
+}
+
+//output
+Enter principle, time, rate:1200 3 10
+compound interest = 1597.200073
