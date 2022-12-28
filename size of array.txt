@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    // array declaration
+    int arr[10];
+    printf("%lu",sizeof(arr)); // %LU UNSIGNED LONG INTEGER , %d gives warning
+
+    return 0;
+}
+
+//output
+40
